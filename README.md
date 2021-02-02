@@ -10,47 +10,11 @@
 **Face Embedding models:**
 
 1. Inception Resnet v1
-
-### Clone the the repository
-
-$ `git clone https://rishab-pal-onebcg@bitbucket.org/onebcg/facialrecognitionv1.git`
+2. Inception Resnet v2
 
 ### Run the code in virtual environment (often ran into poor GPU utilization)
-$ `pip3 install virtualenv`
-
-$ `virtualenv fr_env`
-
-$ `source fr_env/bin/activate`
 
 $ `pip3 install -r requirements.txt`
-
-$ `cd facialrecognitionv1`
-
-$ `git checkout <branch-name>`
-
-### Run the code in CONDA environment (recommended)
-
-$ `wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh`
-
-$ `sh Anaconda3-2020.02-Linux-x86_64.sh`
-
-$ `source anaconda3/bin/activate`
-
-$ `conda create -n fr_env python==3.6.8`
-
-$ `conda install -c anaconda tensorflow-gpu==1.13.*`
-
-$ `conda install -c conda-forge opencv`
-
-$ `conda install -c anaconda scikit-learn`
-
-$ `conda install -c anaconda scikit-image`
-
-$ `conda install -c anaconda numpy==1.16.4`
-
-$ `cd facialrecognitionv1`
-
-$ `git checkout <branch-name>`
 
 ### To run the Face Recognition test
 $ `python test.py`
